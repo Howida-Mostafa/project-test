@@ -1,0 +1,21 @@
+.sb-sidenav-menu-heading ul {
+    list-style: none;
+    padding: 0;
+
+}
+.sb-sidenav-menu-heading ul li {
+    margin: 5px 0 !important;
+}
+.sb-sidenav-menu-heading ul li a {
+    padding: 10px 40px;
+    color: #fff;
+    background-color: #222;
+}
+.sb-sidenav-menu-heading ul li a:hover,
+.sb-sidenav-menu-heading ul li a:active {
+    color: #fff;
+    background-color: #000;
+}
+.btn {
+    width: auto;
+}

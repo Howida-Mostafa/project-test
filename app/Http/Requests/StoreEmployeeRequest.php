@@ -24,7 +24,7 @@ class StoreEmployeeRequest extends FormRequest
         return [
             'first_name'     => 'required',
             'last_name'      => 'required',
-            'phone'          => 'required',
+            'Phone'          => 'required',
             'email'          => 'required|email|unique:employees',
             'company_id'     => 'required',
         ];

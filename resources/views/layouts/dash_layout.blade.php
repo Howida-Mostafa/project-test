@@ -20,7 +20,8 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('css/mdb.min.css') }}" rel="stylesheet">
-   <!-- @vite(['resources/css/app.css', 'resources/css/style.css']) -->
+    <!-- @vite(['resources/css/app.css', 'resources/css/style.css']) -->
+    <link href="{{ asset('css/dash_style.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
@@ -28,7 +29,7 @@
     @include('inc.navbar_dash')
         <div id="layoutSidenav" class="d-flex">
                 @include('inc.sidebar')
-            <main class="py-4 d-block w-100">
+            <main class="d-block w-100">
                 @yield('content')
             </main>
         </div>    

@@ -2,9 +2,7 @@
 
 @section('content')
 
-<br>
-<br>
-<br>
+
 <div class="container">
     <h1 class="mt-4"></h1>
     <div class="card mb-4">
