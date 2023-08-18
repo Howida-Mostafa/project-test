@@ -20,7 +20,7 @@ return new class extends Migration
             $table->foreign('company_id')->references('id')->on('companies')->onDelete('cascade');//referance id in company
 
             $table->string('email')->nullable();
-            $table->string('Phone')->nullable();
+            $table->string('phone')->nullable();
 
             $table->timestamps();
         });

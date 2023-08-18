@@ -22,7 +22,7 @@
                                         <th>Last Name</th>
                                         <th>Company Name</th>
                                         <th>Email</th>
-                                        <th>phone</th>
+                                        <th>Phone</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -58,8 +58,8 @@
         <a href="{{ url('/dashboard') }}" class="btn btn-danger p-2 px-4 mx-2">
             Dashboard
         </a>
-        <a href="{{ url('/dashboard/employe') }}" class="btn btn-danger p-2 px-4 mx-2">
-        Employe
+        <a href="{{ url('/dashboard/employee') }}" class="btn btn-danger p-2 px-4 mx-2">
+        Employee
         </a>
 
     </div>

@@ -1,6 +1,7 @@
 @extends('layouts.dash_layout')
 
 @section('content')
+<h1 class="text-center m-4">Welcome</h1>
 <!-- <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -20,5 +21,4 @@
         </div>
     </div>
 </div> -->
-cd
 @endsection

@@ -6,7 +6,7 @@
 <div class="container">
     <h1 class="mt-4"></h1>
     <div class="card mb-4">
-        <div class="card-header"><i class="fas fas fa-map mr-1"></i> areas </div>
+        <div class="card-header"><i class="fas fas fa-map mr-1"></i> Employee </div>
         <div class="card-body">
             <div class="row">
                 <div class="col-12">
@@ -72,10 +72,10 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="phone" class="col-md-4 col-form-label text-center">Phone</label>
+                            <label for="phone" class="col-md-4 col-form-label text-center">phone</label>
                             <div class="col-md-6">
-                                <input type="text" name="Phone" id="Phone" class="form-control @error('Phone') is-invalid @enderror" required>
-                                @error('Phone')
+                                <input type="text" name="phone" id="phone" class="form-control @error('phone') is-invalid @enderror" required>
+                                @error('phone')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>

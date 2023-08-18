@@ -74,10 +74,10 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="Phone" class="col-md-4 col-form-label text-center">Phone</label>
+                            <label for="phone" class="col-md-4 col-form-label text-center">phone</label>
                             <div class="col-md-6">
-                                <input type="text" name="Phone" id="Phone" class="form-control @error('Phone') is-invalid @enderror"  value="{{$employee->Phone}}">
-                                @error('Phone')
+                                <input type="text" name="phone" id="phone" class="form-control @error('phone') is-invalid @enderror"  value="{{$employee->phone}}">
+                                @error('phone')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
