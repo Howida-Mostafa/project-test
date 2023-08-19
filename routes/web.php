@@ -42,6 +42,7 @@ Route::prefix('dashboard')->middleware('auth')->group(function () {
 
 Auth::routes();
 
+
 // Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 
